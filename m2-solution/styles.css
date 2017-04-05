@@ -1,0 +1,103 @@
+ * {
+ 	box-sizing: border-box;
+ }
+
+ body {
+ 	font-family:sans-serif, georgia;
+ 	background-color: #2E2E2E;
+
+ }	
+
+
+ 
+ /*headings*/
+ h1,h2 {
+ 	font-family: 'Josefin Sans',sans-serif;
+}
+
+  h1  { 
+ 	margin: 7px;
+ 	font-size: 175%;
+ 	color: #FFBF00;
+ 	text-align: center;
+ 	
+ }
+
+ h2 {
+     border: 1px solid #000;
+     text-align: center;
+    width: 100px;
+ 	float: right;
+ 	margin: 0px;
+ 	display: block;
+ }
+ h2.title1{
+ 	background-color: #F5D0A9;
+ }
+
+ h2.title2{
+ 	background-color: #DF0101;
+ }
+ h2.title3 {
+    background-color:  #E6E6E6;
+ }
+  
+ section {
+  background-color: #A4A4A4;
+  position: relative;
+  border: 1px solid black;
+  width:90%;
+  height: 180px;
+  margin-right: auto;
+  margin-left: 5px;
+
+ 	 }
+
+ 
+
+ p { padding:30px 5px 5px 5px;
+ 	margin: 18px 15px 10px 15px;
+ 
+ }
+
+ .row {
+ 	width: 100%;}
+ 	
+ 	/*----larger devices----- */
+
+   @media (min-width: 992px) 
+   {  .col-lg-4
+   	{
+   	float: left;
+   	width: 32%;
+  }
+   }
+
+   /* -----medium devices-----*/
+
+   @media (min-width: 768px ) and (max-width: 991px)
+   { 
+   	.col-md-6, .col-md-12 {
+   		float: left;
+   		margin: 5px;
+   	}
+
+   	.col-md-6 {
+   		width: 48.5%;
+   	}
+   	.col-md-12 {
+   		width: 98%;
+   	}
+   }
+/*----------small devices ---------*/
+   @media (max-width:767px ){
+
+   .col-sm-12{
+   	float: left;
+   	margin: 5px;
+   	width: 98%;
+   }
+   
+
+   }
+
